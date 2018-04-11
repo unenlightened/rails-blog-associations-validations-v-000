@@ -1,3 +1,3 @@
-class Post < ActiveRecord::Base
-  
+class PostTag < ActiveRecord::Base
+
 end
