@@ -10,6 +10,8 @@
 <%= 'Tags:' if @post.tags.present? %>
 <% @post.tags.each do |t| %>
 
+<% end %>
+
 
 <%= link_to 'Edit', edit_post_path(@post) %> |
 <%= link_to 'Back', posts_path %>
